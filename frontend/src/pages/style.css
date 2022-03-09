@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.btn-add {
+    border: none;
+    outline: none;
+    background-color: #2196F3;
+    padding: 12px 32px;
+    border-radius: 55px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.btn-add:hover {
+    background-color: #1976D2;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.table-data {
+    padding: 20px;
+    font-size: 16px;
+    width: 80%;
+}
+
+.table-data tr {
+    border: 1px solid black;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.table-data td {
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.action {
+    display: flex;
+    flex: 1;
+}
+
+.btn-edit {
+    margin: 0px 5px;
+    border: none;
+    outline: none;
+    background-color: #BDBDBD;
+    padding: 12px 32px;
+    border-radius: 55px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn-delete {
+    margin: 0px 5px;
+    border: none;
+    outline: none;
+    background-color: #FF5722;
+    padding: 12px 32px;
+    border-radius: 55px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn-edit:hover {
+    opacity: 1;
+}
+.btn-delete:hover {
+    opacity: 1;
+}
+
+form {
+    width: 100%;
+}
+
+.input-field {
+    width: 40%;
+    height: 36px;
+    margin: 10px;
+}
+
+.input-field input {
+    width: 100%;
+    line-height: 36px;
+    border-radius: 5px;
+    padding: 0 1rem;
+    border-color: gray;
+}
+
+.submit {
+    margin: 0px 5px;
+    border: none;
+    outline: none;
+    background-color: blue;
+    padding: 12px 32px;
+    border-radius: 55px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.submit:hover {
+    opacity: 1;
+}
+
+.back {
+    margin: 0px 5px;
+    border: none;
+    outline: none;
+    background-color: limegreen;
+    padding: 12px 32px;
+    border-radius: 55px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.back:hover {
+    opacity: 1;
+}
